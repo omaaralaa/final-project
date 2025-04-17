@@ -1,0 +1,12 @@
+FROM agri_qa_model_new.gguf
+
+TEMPLATE """
+<|begin_of_text|>
+### Instruction:
+
+
+### Input:
+{{.Prompt}}
+
+### Response:
+"""
